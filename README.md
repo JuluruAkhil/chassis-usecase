@@ -39,7 +39,7 @@ Create and activate a new Conda environment using the provided `.condarc` file:
 
 ```bash
 # Create new environment
-conda env create -f .condarc -n fraud-detection
+conda env create -f .condarc.yaml -n fraud-detection
 
 # Activate the environment
 conda activate fraud-detection
@@ -70,7 +70,7 @@ The model is packaged as a Docker container and exposes a gRPC endpoint on port 
 To run the container:
 
 ```bash
-docker run -p 45000:45000 fraud-detection-model:1.0.0
+docker run -d -p 45000:45000 fraud-detection-model:1.0.0
 ```
 
 ### Making Predictions
