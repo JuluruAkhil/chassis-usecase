@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Conda
+.conda/
+/conda-env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ML specific
+*.pkl
+*.h5
+*.model
+*.joblib
+*.pth
+my_fraud_model.pkl
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Docker
+.docker/
+*.tar
+.DS_Store
+
+# ChassisML specific
+.chassis/
+chassis_logs/ 
